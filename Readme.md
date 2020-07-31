@@ -29,12 +29,12 @@ It is preferred to use an out-of-source build, to keep the source code separated
 #### Unix-like operating system
 Building on *nix was tested using both the GCC and intel compilers. The following command can be used to build the SimulateIM and SelectRecord for debugging:
 ```
-cmake -D CMAKE_BUILD_TYPE=Release ..
+cmake -D CMAKE_BUILD_TYPE=Debug ..
 make
 ```
 For release build:
 ```
-cmake -D CMAKE_BUILD_TYPE=Debug ..
+cmake -D CMAKE_BUILD_TYPE=Release ..
 make
 ```
 
